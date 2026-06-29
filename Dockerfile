@@ -1,4 +1,4 @@
-FROM ghcr.io/brandonmdz/steamcmd-arm64:latest
+FROM teriyakigod/steamcmd:arm64
 
 ENV SERVERNAME="servertest"
 ENV CPU_MHZ=2000
