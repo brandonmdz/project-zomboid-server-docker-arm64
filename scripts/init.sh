@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FEXBash "/home/steam/Steam/steamcmd.sh +force_install_dir /home/steam/pzserver +login anonymous +app_update 380870 validate +quit"
+FEXBash "/home/steam/Steam/steamcmd.sh +force_install_dir /home/steam/pzserver +login anonymous +app_update 380870 +quit"
 screen -d -m -S zomboid /bin/bash -c ' \
   while true; do \
     # sed -i "s/UseZGC/UseG1GC/g" /home/steam/pzserver/ProjectZomboid64.json; \
